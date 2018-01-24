@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Educación</title>
+  </head>
+  <body>
+    <svg>
+      <img src="img/iniciales.svg" alt="iniciales" width="200px" height="300px">
+    </svg>
+    <h1>Hoja de Vida</h1>
+    <h2>Andres Felipe Munar Caicedo</h2>
+    <h3>20-Febrero-1994 Puerto Lopéz</h3>
+      <ul>
+        <li> <a href="../Index/index.html">Inicio</a></li>
+        <li> <a href="../Educacion/educacion.html">Educación</a></li>
+        <li> <a href="../Experiencia/Experiencia.html">Experiencia</a></li>
+      </ul>
+    <h2>Educación</h2>
+    <table border="1">
+      <tr>
+        <th>Año</th>
+        <th>Institución</th>
+        <th>Lugar</th>
+        <th>¿Culminó?</th>
+      </tr>
+      <tr>
+        <td>2013</td>
+        <td>Naval</td>
+        <td>Colombia</td>
+        <td>Secundaria</td>
+      </tr>
+      <tr>
+        <td>2015</td>
+        <td>Libertadores</td>
+        <td>Colombia</td>
+        <td>ING. Telecomunicaciones</td>
+      </tr>
+      <tr>
+        <td>2016</td>
+        <td>Coorpoamerica</td>
+        <td>Colombia</td>
+        <td>Ingles Sistematizado</td>
+      </tr>
+    </table>
+
+    <h2>Agregar Estudios</h2>
+    <form autocomplete="on" name="Formulario de Estudios">
+      <p>Año:
+        <select name="año">
+          <option value="año" selected="selected">2016</option>
+          <option value="año">2017</option>
+          <option value="año">2018</option>
+        </select>
+      </p>
+      <p>Institución
+        <input type="text" placeholder="Introduzca Universidad" name="Universidad">
+      </p>
+      <p>Lugar
+        <input type="text" placeholder="Ciudad" name="ubicacion">
+      </p>
+      <p>¿Culminó?
+        <input type="radio" name="positivo" value="si" checked>Si
+        <input type="radio" name="negativo" value="no">No
+      </p>
+      <p id="Finalizar">
+      <input type="submit" name="Enviar" value="Enviar">
+      </p>
+    </form><br/>
+
+    <footer>
+      <ul>
+        <li><strong>Escribeme al correo:</strong> afmunarcos@gmail.com</li>
+        <li><strong>Llamar a:</strong> +57-3024145414</li>
+        <li><strong>Dirección:</strong> Colombia</li>
+      </ul>
+    </footer>
+  </body>
+</html>
